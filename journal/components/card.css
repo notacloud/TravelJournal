@@ -1,0 +1,98 @@
+.card{
+  width: 50%;
+  height: auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  gap:10px;
+  color: black;
+  align-items: center;
+  position: relative;
+  top:100px;
+  margin-bottom: 15px;
+}
+
+.placeImg{
+  min-height: 200px;
+  float: left;
+  height: auto;
+  width:150px;
+  border-radius: 7px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-content: space-between;
+  gap:20px;
+}
+
+.countryInfo{
+  display: flex;
+  align-content: center;
+  gap:10px;
+}
+
+.locationLogo{
+  height: 16px;
+}
+
+.country{
+  line-height: 16px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+}
+
+.googlemaps{
+  line-height: 15px;
+  height: 13px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.googlemaps > a:link{
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.googlemaps > a:visited{
+  color: #362082;
+  text-decoration: underline;
+}
+
+.googlemaps > a:hover{
+  color: #55535d;
+}
+
+.locationName{
+  margin-top: 13px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 31px;
+  font-size: 28px;
+}
+
+.columnFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.tourDates{
+  margin-top: 15px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+}
+
+.tourDetails > p{
+  white-space: pre-line;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}

@@ -1,0 +1,21 @@
+.navbar{
+  width: 100%;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  gap: 10px;
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar > div{
+  font-family: Inter;
+  font-weight: 700;
+}
+
+img{
+  height: 2em;
+}
+
