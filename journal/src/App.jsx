@@ -26,18 +26,12 @@ function App() {
     )
   })
 
-  if (width < 1024) {
-    return (
-      <NoContent />
-    )
-  } else {
-    return (
-      <>
-        <Navbar />
-        {cards}
-      </>
-    )
-  }
+  return (
+    <>
+      <Navbar />
+      {cards}
+    </>
+  )
 }
 
 export default App
