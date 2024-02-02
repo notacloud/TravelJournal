@@ -6,7 +6,7 @@ import { tours } from "../data"
 
 const NoContent = () => {
   return (
-    <h3 style={{display:'flex', flexWrap:'wrap'}}><strong style={{color:'#ff9966'}}>The mobile view for this website is currently under development! Sorry for the trouble</strong></h3>
+    <h3 style={{ display: 'flex', flexWrap: 'wrap' }}><strong style={{ color: '#ff9966' }}>The mobile view for this website is currently under development! Sorry for the trouble</strong></h3>
   )
 }
 
@@ -18,19 +18,19 @@ function App() {
   })
 
   const cards = tours.map((item) => {
-    return(
+    return (
       <Card
-        key = {item.id}
+        key={item.id}
         {...item}
       />
     )
   })
 
-  if(width < 1024){
-    return(
-      <NoContent/>
+  if (width < 1024) {
+    return (
+      <NoContent />
     )
-  } else{
+  } else {
     return (
       <>
         <Navbar />

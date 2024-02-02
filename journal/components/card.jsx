@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 import location from "../static/location.svg"
 
-export function Card({countryName, placeToVisit, dates, description, image}) {
+export function Card({countryName, placeToVisit, dates, description, image, googleLocation}) {
   return(
     <>
       <div className="card">
@@ -19,7 +19,7 @@ export function Card({countryName, placeToVisit, dates, description, image}) {
                 </div>
               </div>
               <div className="googlemaps">
-                <a href="https://www.google.com/maps">View on Google maps</a>
+                <a href={googleLocation}>View on Google maps</a>
               </div>
             </div>
           </div>
