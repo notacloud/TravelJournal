@@ -1,52 +1,52 @@
-.card{
+.card {
   width: 100%;
   height: auto;
   background-color: white;
   padding: 15px;
   border-radius: 15px;
   display: flex;
-  gap:10px;
+  gap: 10px;
   color: black;
   align-items: center;
   position: relative;
-  top:100px;
+  top: 100px;
   margin-bottom: 15px;
 }
 
-.placeImg{
+.placeImg {
   min-height: 200px;
   float: left;
   height: auto;
-  width:150px;
+  width: 150px;
   border-radius: 7px;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
   align-content: space-between;
-  gap:20px;
+  gap: 20px;
 }
 
-.countryInfo{
+.countryInfo {
   display: flex;
   align-content: center;
-  gap:10px;
+  gap: 10px;
 }
 
-.locationLogo{
+.locationLogo {
   height: 16px;
 }
 
-.country{
+.country {
   line-height: 16px;
   font-size: 17px;
   font-weight: 400;
   font-family: Inter;
 }
 
-.googlemaps{
+.googlemaps {
   line-height: 15px;
   height: 13px;
   font-family: Inter;
@@ -54,21 +54,21 @@
   font-size: 14px;
 }
 
-.googlemaps > a:link{
-  color: #918E9B;
+.googlemaps > a:link {
+  color: #918e9b;
   text-decoration: underline;
 }
 
-.googlemaps > a:visited{
+.googlemaps > a:visited {
   color: #362082;
   text-decoration: underline;
 }
 
-.googlemaps > a:hover{
+.googlemaps > a:hover {
   color: #55535d;
 }
 
-.locationName{
+.locationName {
   margin-top: 13px;
   font-family: Inter;
   font-weight: 700;
@@ -76,12 +76,12 @@
   font-size: 28px;
 }
 
-.columnFlex{
+.columnFlex {
   display: flex;
   flex-direction: column;
 }
 
-.tourDates{
+.tourDates {
   margin-top: 15px;
   font-family: Inter;
   font-weight: 700;
@@ -89,7 +89,7 @@
   line-height: 13px;
 }
 
-.tourDetails > p{
+.tourDetails > p {
   white-space: pre-line;
   font-family: Inter;
   font-weight: 400;

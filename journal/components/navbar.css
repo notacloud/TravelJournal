@@ -1,6 +1,6 @@
-.navbar{
+.navbar {
   width: 100%;
-  background-color: #F55A5A;
+  background-color: #f55a5a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,12 +10,11 @@
   z-index: 10;
 }
 
-.navbar > div{
+.navbar > div {
   font-family: Inter;
   font-weight: 700;
 }
 
-img{
+img {
   height: 2em;
 }
-
